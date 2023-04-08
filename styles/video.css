@@ -1,0 +1,34 @@
+.video-grid {
+  margin-top: 50px;
+  z-index: 100;
+}
+
+.title-and-videos {
+  display: flex;
+  flex-direction: column;
+  vertical-align: baseline;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.videos {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+  margin-bottom: 50px;
+}
+
+.movie-pic {
+  width: 230px;
+  height: 125px;
+  border-radius: 4px;
+}
+
+.movie-pic:hover {
+  transform: scale(1.2);
+  transition: 0.1s;
+}

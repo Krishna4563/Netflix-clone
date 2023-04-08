@@ -1,0 +1,7 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 120px;
+  margin-top: 150px;
+}
